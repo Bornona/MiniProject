@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image3"
+    android:orientation="horizontal"
+    tools:context=".SecondActivity">
+
+
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="395dp"
+        android:background="@color/colorlogin3"
+        android:text=" Back "
+        android:textSize="20dp"></Button>
+
+     <TextView
+         android:id="@+id/text3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:layout_x="30dp"
+         android:layout_y="100dp"
+         android:text= "CoronaVirus Outbreak"
+         android:background="@color/colorPrimary"
+         android:textSize="35dp"></TextView>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="30dp"
+            android:text="Breief"
+            android:textSize="25dp"
+            ></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="Symtoms"
+            android:textSize="25dp"
+            ></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="cases (data Chart)"
+            android:textSize="25dp"
+            ></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="cases (graph)"
+            android:textSize="25dp"
+            ></RadioButton>
+    </RadioGroup>
+
+</AbsoluteLayout>
